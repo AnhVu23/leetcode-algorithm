@@ -1,3 +1,9 @@
+/**
+ * Solution for two sum unsorted array
+ * @param nums
+ * @param target
+ * @return {number[]}
+ */
 function twoSum(nums, target) {
     const numDict = nums.map((num, i) => ({
         value: num,
